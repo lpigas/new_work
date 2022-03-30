@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Master_Panda</title>
+    <title>Регистрация</title>
 </head>
 <body>
     <div class="password">
         <input type="email" name="email" id="email" placeholder="e-mail">
         <input type="password" placeholder="Password">
         <button class="btnOk">ok</button>
-        <div class="registration"><button>Регистрация</button></div>
+
     </div>
     <header class="header" >
         <a href="site.html" class="lpcom"  >Home</a>
@@ -71,7 +71,19 @@
             </select>
       </nav>
       </header>
-
+      <div class="textPart">
+          <div class="pasPage2">
+            <form action="http://localhost:3000/api" method="GET">
+            <div class="input_name pasPage"><input type="text" placeholder="Введите имя" required checked></div>
+            <div class="input_Lastname pasPage"><input type="text" placeholder="Введите фамилию" required checked></div>
+            <div class="input_email pasPage"><input type="email" placeholder="Введите e-mail" required checked></div>
+            <div class="input_phone pasPage"><input type="number" placeholder="Введите телефон" minlength="12" required checked></div>
+            <div class="input_newPassword pasPage"><input type="text" placeholder="Введите пароль" required checked minlength="5"></div>
+            <input type="checkbox" name="checkbox" id="checkbox" required> Подтверждаю согласие с <a href="Terms_of_use.html" target="_blank" class="link">пользовательским соглашением</a></div> 
+            <button class="registration_button">Подтвердить</button>
+            </div>
+        
+      </div>
       <footer>
           <div class="footers">
             <div>Курсы по рукоделию:</div>

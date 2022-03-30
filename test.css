@@ -1,0 +1,20 @@
+.checkbox{
+    display: block;
+  }
+  .form-field{
+    display: block;
+    padding: 5px;
+  }
+  ::placeholder{
+    /* color: red; */
+    /* background-color: #123; */
+  }
+  .red:focus{
+    /* background-color: rgb(252, 4, 4); */
+  }
+  .red:invalid{
+    /* border: 5px solid blue */
+  }
+  .red:checked~.form-label{
+    color: red
+  }
