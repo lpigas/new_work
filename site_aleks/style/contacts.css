@@ -1,0 +1,43 @@
+
+.conteiner{
+    display: flexbox;
+    width: 80%;
+    margin: auto;
+
+}
+.contacts{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(108, 108, 173);
+    margin: auto;
+
+    padding: 15px;
+    border: 2px solid black;
+}
+h1{
+    
+    background-color: #fff;
+    justify-content: center;
+}
+.name, .name-value{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+.name{
+    display: flex;
+    margin: auto;
+    margin-left: 25px;
+
+}
+img{
+    width: 30px;
+    margin-left: 15px;
+}
+.first{
+    margin-top: 75px;
+}
+.end{
+    margin-bottom: 75px;
+}
